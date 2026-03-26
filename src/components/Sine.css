@@ -1,18 +1,24 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-#canvas{
-    display: block;
-    opacity: 0.5;
-    width: 100vw;
-    height: 100vh;
+
+#canvas {
+  display: block;
+  opacity: 0.62;
+  width: 100vw;
+  height: 100vh;
 }
-#Sine{
-    background-color: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -10;
-    width: 100vw;
-    height: 100vh;
+
+#Sine {
+  background:
+    radial-gradient(circle at top, rgba(50, 35, 10, 0.22), transparent 35%),
+    radial-gradient(circle at bottom, rgba(212, 158, 64, 0.08), transparent 30%),
+    #050505;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }

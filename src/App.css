@@ -1,6 +1,19 @@
-body {
-  background-color: azure;
+html,
+body,
+#root {
+  min-height: 100%;
 }
+
+body {
+  margin: 0;
+  background: #050505;
+  overflow-x: hidden;
+}
+
+.App {
+  min-height: 100vh;
+}
+
 body::-webkit-scrollbar {
   width: 0.3em;
   scroll-behavior: smooth;
@@ -18,5 +31,3 @@ body::-webkit-scrollbar-thumb {
   outline: none;
   border-radius: 10px;
 }
-
-
